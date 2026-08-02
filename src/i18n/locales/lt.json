@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Pradžia",
+    "info": "Info",
+    "offers": "Pasiūlymai",
+    "gallery": "Galerija",
+    "contacts": "Kontaktai"
+  },
+  "hero": {
+    "description": "Profesionaliai suplanuoti enduro turai aplink Vilnių – nepamirštama patirtis tiek pradedantiesiems, tiek patyrusiems vairuotojams.",
+    "button": "ŽIŪRĖTI PASIŪLYMUS"
+  },
+  "info": {
+    "motorcycle": {
+      "heading": "Modern Honda CRF300L",
+      "text": "Važiuokite visiškai naujais Honda CRF300L motociklais, pritaikytais bekelės nuotykiams."
+    },
+    "route": {
+      "heading": "Maršrutai aplink Vilnių",
+      "text": "Atraskite kruopščiai suplanuotus miško keliukus, žvyrkelius ir gražiausias Vilniaus apylinkes."
+    },
+    "everyone": {
+      "heading": "Tinka kiekvienam",
+      "text": "Turai pritaikyti tiek pradedantiesiems, tiek patyrusiems motociklininkams."
+    }
+  },
+  "offers": {
+    "sectionHeading": "Pasiūlymai",
+    "mostPopular": "Populiariausias",
+    "tourPrice": "Pasiūlymo kaina",
+    "tours": {
+      "short": {
+        "title": "2.5val turas",
+        "description": "Į kiekvieną turą įeina naujas Honda CRF300L motociklas, maršruto vedlys ir kruopščiai parinkti maršrutai, leidžiantys mėgautis tikru enduro nuotykiu. Atraskite Vilniaus apylinkes kitaip – ten, kur prasideda tikras nuotykis."
+      },
+      "medium": {
+        "title": "4val turas",
+        "description": "Į kiekvieną turą įeina naujas Honda CRF300L motociklas, maršruto vedlys ir kruopščiai parinkti maršrutai, leidžiantys mėgautis tikru enduro nuotykiu. Atraskite Vilniaus apylinkes kitaip – ten, kur prasideda tikras nuotykis."
+      },
+      "fullDay": {
+        "title": "Visos dienos turas",
+        "description": "Į kiekvieną turą įeina naujas Honda CRF300L motociklas, maršruto vedlys ir kruopščiai parinkti maršrutai, leidžiantys mėgautis tikru enduro nuotykiu. Atraskite Vilniaus apylinkes kitaip – ten, kur prasideda tikras nuotykis."
+      }
+    }
+  },
+  "gallery": {
+    "sectionHeading": "Galerija",
+    "viewMoreButton": "Žiūrėti daugiau",
+    "viewLessButton": "Žiūrėti mažiau",
+    "photoDescription": "Akimirka iš mūsų enduro turo"
+  },
+  "contacts": {
+    "sectionHeader": "Susisiekite",
+    "phone": {
+      "heading": "Telefonas",
+      "text": "+37068881519"
+    },
+    "email": {
+      "heading": "Paštas",
+      "text": "mototuras@gmail.com"
+    },
+    "location": {
+      "heading": "Adresas",
+      "text": "Vilnius Enduro Tours“, Ramybės g. 4, Vilnius"
+    }
+  },
+  "footer": {
+    "rights": "Visos teisės saugomos"
+  }
+}

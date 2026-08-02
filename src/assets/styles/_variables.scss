@@ -1,0 +1,21 @@
+@use "sass:color";
+
+$text-color: #ffffff;
+$primary-color: #ff0000;
+$secondary-color: #0f0f0f;
+$gray-color: #333333;
+$section-horizontal-padding: 0 50px;
+$section-padding-top: 30px;
+$section-scroll-margin-top: 50px;
+$section-border: 1px solid $gray-color;
+$transition-duration: 0.3s;
+$bebas-neue-font: "Bebas Neue", sans-serif;
+$inter-font: "Inter", sans-serif;
+
+@function darken-color($color) {
+  @if $color == $text-color {
+    @return color.adjust($color, $lightness: -25%);
+  } @else if $color == $primary-color {
+    @return color.adjust($color, $lightness: -10%);
+  }
+}

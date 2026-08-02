@@ -1,0 +1,62 @@
+@use "../variables" as *;
+
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  box-sizing: border-box;
+  padding: $section-horizontal-padding;
+
+  .background {
+    position: absolute;
+    inset: 0;
+    background-color: $secondary-color;
+    opacity: 70%;
+    z-index: -1;
+  }
+
+  .logo {
+    flex: 1;
+    color: $text-color;
+  }
+
+  .navigation {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 40px;
+    font-size: 14px;
+    align-items: center;
+
+    .nav-link {
+      cursor: pointer;
+      color: $text-color;
+      transition: ease $transition-duration;
+      text-transform: uppercase;
+
+      &:hover {
+        color: darken-color($text-color);
+      }
+    }
+
+    .languages {
+      display: flex;
+      gap: 20px;
+      .language {
+        height: 22px;
+        width: 22px;
+        cursor: pointer;
+        border: none;
+        background: transparent;
+        padding: 0;
+        margin: 0;
+      }
+      .disable {
+        cursor: not-allowed;
+        opacity: 0.5;
+      }
+    }
+  }
+}

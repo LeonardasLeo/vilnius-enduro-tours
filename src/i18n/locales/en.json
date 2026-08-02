@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Home",
+    "info": "Info",
+    "offers": "Offers",
+    "gallery": "Gallery",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "description": "Professionally planned enduro tours around Vilnius — an unforgettable experience for both beginners and experienced riders.",
+    "button": "EXPLORE OFFERS"
+  },
+  "info": {
+    "motorcycle": {
+      "heading": "Modern Honda CRF300L",
+      "text": "Ride brand-new Honda CRF300L motorcycles, designed for off-road adventures."
+    },
+    "route": {
+      "heading": "Routes Around Vilnius",
+      "text": "Discover carefully planned forest trails, gravel roads, and the most beautiful areas around Vilnius."
+    },
+    "everyone": {
+      "heading": "Suitable for Everyone",
+      "text": "Tours are designed for both beginners and experienced riders."
+    }
+  },
+  "offers": {
+    "sectionHeading": "Offers",
+    "mostPopular": "Most Popular",
+    "tourPrice": "Tour price",
+    "tours": {
+      "short": {
+        "title": "2.5h Tour",
+        "description": "Each tour includes a brand-new Honda CRF300L motorcycle, an experienced guide, and carefully selected routes designed to deliver a true enduro adventure. Discover the surroundings of Vilnius from a whole new perspective—where the real adventure begins."
+      },
+      "medium": {
+        "title": "4h Tour",
+        "description": "Each tour includes a brand-new Honda CRF300L motorcycle, an experienced guide, and carefully selected routes designed to deliver a true enduro adventure. Discover the surroundings of Vilnius from a whole new perspective—where the real adventure begins."
+      },
+      "fullDay": {
+        "title": "Full Day Tour",
+        "description": "Each tour includes a brand-new Honda CRF300L motorcycle, an experienced guide, and carefully selected routes designed to deliver a true enduro adventure. Discover the surroundings of Vilnius from a whole new perspective—where the real adventure begins."
+      }
+    }
+  },
+  "gallery": {
+    "sectionHeading": "Gallery",
+    "viewMoreButton": "View More",
+    "viewLessButton": "View Less",
+    "photoDescription": "A moment captured during our enduro tour"
+  },
+  "contacts": {
+    "sectionHeader": "Contact us",
+    "phone": {
+      "heading": "Phone"
+    },
+    "email": {
+      "heading": "Email"
+    },
+    "location": {
+      "heading": "Location"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}

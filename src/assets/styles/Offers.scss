@@ -1,0 +1,15 @@
+@use "./variables" as *;
+
+.offers-section {
+  scroll-margin-top: $section-scroll-margin-top;
+  padding: $section-horizontal-padding;
+  padding-top: $section-padding-top;
+  padding-bottom: 40px;
+  border-bottom: $section-border;
+}
+
+.plan-wrapper {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}

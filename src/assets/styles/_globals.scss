@@ -1,0 +1,9 @@
+@use "./variables" as *;
+
+.section-heading {
+  font-family: $bebas-neue-font;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin: 0 0 20px 0;
+}

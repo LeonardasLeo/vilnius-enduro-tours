@@ -1,0 +1,25 @@
+@use "../variables" as *;
+
+.info-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  &--heading {
+    font-family: $bebas-neue-font;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    margin: 5px 0;
+  }
+
+  &--text {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  &--vector {
+    color: $primary-color;
+    // height: 50px;
+
+  }
+}
