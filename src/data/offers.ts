@@ -12,7 +12,7 @@ export const offers: OfferType[] = [
     "titleKey": "offers.tours.medium.title",
     "descriptionKey": "offers.tours.medium.description",
     "price": 169,
-    "image": "/images/image00012.jpeg",
+    "image": "/images/image00011.jpeg",
     "mostPopular": true
   },
   {
@@ -20,7 +20,7 @@ export const offers: OfferType[] = [
     "titleKey": "offers.tours.fullDay.title",
     "descriptionKey": "offers.tours.fullDay.description",
     "price": 259,
-    "image": "/images/image00005.jpeg",
+    "image": "/images/image00019.jpeg",
     "mostPopular": false
   }
 ]
