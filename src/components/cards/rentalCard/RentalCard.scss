@@ -1,0 +1,17 @@
+@use "../../../assets/styles/variables" as *;
+
+.rental-card {
+  background-position: left;
+  background-size: 190%;
+  .card-content {
+    width: 70%;
+  }
+
+  &--list {
+    margin: auto 0;
+
+    li:not(:last-child) {
+      margin-bottom: var(--space-lg);
+    }
+  }
+}

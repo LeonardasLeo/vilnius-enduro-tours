@@ -1,0 +1,21 @@
+@use "../../assets/styles/variables" as *;
+
+.rentals-section {
+  padding: $section-padding-top $section-horizontal-padding;
+  border-bottom: $section-border;
+  scroll-margin-top: $section-scroll-margin-top;
+
+  .rental-card--custom {
+    flex: 2;
+  }
+
+  .before-trip-card--custom {
+    flex: 1;
+  }
+}
+
+.rentals-content {
+  display: flex;
+  gap: var(--space-xs);
+  font-size: $primary-font-size;
+}

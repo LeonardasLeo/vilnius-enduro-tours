@@ -2,13 +2,14 @@
   "nav": {
     "home": "Home",
     "info": "Info",
-    "offers": "Offers",
+    "tours": "Tours",
+    "rentals": "Rentals",
     "gallery": "Gallery",
-    "contacts": "Contacts"
+    "contacts": "Contact us"
   },
   "hero": {
     "description": "Professionally planned enduro tours around Vilnius — an unforgettable experience for both beginners and experienced riders.",
-    "button": "EXPLORE OFFERS"
+    "button": "Explore offers"
   },
   "info": {
     "motorcycle": {
@@ -24,24 +25,64 @@
       "text": "Tours are designed for both beginners and experienced riders."
     }
   },
-  "offers": {
-    "sectionHeading": "Offers",
+  "guidedTours": {
+    "sectionHeading": "Guided Tours",
     "mostPopular": "Most Popular",
     "tourPrice": "Tour price",
     "tours": {
       "short": {
         "title": "2.5h Tour",
-        "description": "Each tour includes a brand-new Honda CRF300L motorcycle, an experienced guide, and carefully selected routes designed to deliver a true enduro adventure. Discover the surroundings of Vilnius from a whole new perspective—where the real adventure begins."
+        "intro": "A perfect choice for those trying an enduro motorcycle for the first time or looking for a quick escape from the city.",
+        "features": {
+          "feature1": "~50 km route around Vilnius",
+          "feature2": "Scenic forest roads and gravel tracks",
+          "feature3": "Easy off-road sections",
+          "feature4": "Route adapted to your experience level"
+        }
       },
       "medium": {
         "title": "4h Tour",
-        "description": "Each tour includes a brand-new Honda CRF300L motorcycle, an experienced guide, and carefully selected routes designed to deliver a true enduro adventure. Discover the surroundings of Vilnius from a whole new perspective—where the real adventure begins."
+        "intro": "A longer route for those who want to experience more varied terrain and improve their riding skills.",
+        "features": {
+          "feature1": "~100 km route around Vilnius",
+          "feature2": "Fast gravel roads and more technical forest trails",
+          "feature3": "A wider variety of off-road sections",
+          "feature4": "Great choice for riders with some experience"
+        }
       },
       "fullDay": {
-        "title": "Full Day Tour",
-        "description": "Each tour includes a brand-new Honda CRF300L motorcycle, an experienced guide, and carefully selected routes designed to deliver a true enduro adventure. Discover the surroundings of Vilnius from a whole new perspective—where the real adventure begins."
+        "title": "Full-Day Tour",
+        "intro": "A full-day adventure for those who want to make the most of their time on the bike.",
+        "features": {
+          "feature1": "~300 km route around the Vilnius region",
+          "feature2": "A wide variety of terrain — from gravel roads to off-road sections",
+          "feature3": "Beautiful locations and scenic viewpoints",
+          "feature4": "Stops to rest and enjoy the surroundings"
+        }
       }
     }
+  },
+  "rentals": {
+    "sectionHeading": "Rentals",
+    "rental": {
+      "title": "Motorcycle rental",
+      "topText": "For those who prefer to ride independently, we offer Honda CRF300L motorcycle rentals. We currently have three motorcycles available.",
+      "weekdays": "Weekdays – €70 per day",
+      "weekends": "Weekends and holidays – €80 per day",
+      "bottomText": "Create your own adventure and discover the hidden trails and scenic routes surrounding Vilnius."
+    }
+  },
+  "beforeTrip": {
+    "title": "Before trip",
+    "equipment": {
+      "intro": "Before each ride, every participant is provided with all the necessary protective gear:",
+      "helmet": "Helmet",
+      "armor": "Motorcycle armor",
+      "gloves": "Gloves",
+      "boots": "Boots",
+      "bootsDisclaimer": "Protective boots are currently available in EU sizes 44–45. If you require a different size, we recommend bringing your own motorcycle boots."
+    },
+    "closingText": "All you need is a good attitude and the desire to experience a true enduro adventure."
   },
   "gallery": {
     "sectionHeading": "Gallery",

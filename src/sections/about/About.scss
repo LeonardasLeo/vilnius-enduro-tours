@@ -1,0 +1,15 @@
+@use "../../assets/styles/variables" as *;
+
+.info-section {
+  scroll-margin-top: $section-scroll-margin-top;
+  padding-top: $section-padding-top;
+  padding-bottom: var(--space-md);
+  border-bottom: $section-border;
+
+  .info-content {
+    display: flex;
+    gap: var(--space-md);
+    justify-content: space-evenly;
+    padding: 0 $section-horizontal-padding;
+  }
+}

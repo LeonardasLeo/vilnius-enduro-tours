@@ -4,6 +4,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
+  --space-xxs: #{px-to-rem(5px)};
+  --space-xs: #{px-to-rem(10px)};
+  --space-sm: #{px-to-rem(20px)};
+  --space-md: #{px-to-rem(30px)};
+  --space-lg: #{px-to-rem(40px)};
+
+  --icon-sm: #{px-to-rem(10px)};
+  --icon-md: #{px-to-rem(25px)};
+  --icon-lg: #{px-to-rem(50px)};
   background-color: $secondary-color;
   font-family: $inter-font;
   font-optical-sizing: auto;

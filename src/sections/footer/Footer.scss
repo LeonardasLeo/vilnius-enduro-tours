@@ -1,0 +1,40 @@
+@use "../../assets/styles/variables" as *;
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-sm) $section-horizontal-padding;
+  font-size: $primary-font-size;
+
+  .logo-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+
+    .footer-link {
+      text-decoration: none;
+      color: $text-color;
+      transition: ease $transition-duration;
+
+      &:hover {
+        color: darken-color($text-color);
+      }
+
+      svg {
+        height: var(--icon-md);
+      }
+    }
+
+    .footer-socials {
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+    }
+  }
+}

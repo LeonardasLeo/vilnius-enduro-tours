@@ -1,0 +1,13 @@
+@use "../../assets/styles/variables" as *;
+
+.tours-section {
+  scroll-margin-top: $section-scroll-margin-top;
+  padding: $section-padding-top $section-horizontal-padding;
+  border-bottom: $section-border;
+}
+
+.plan-wrapper {
+  display: flex;
+  align-items: stretch;
+  gap: var(--space-sm);
+}

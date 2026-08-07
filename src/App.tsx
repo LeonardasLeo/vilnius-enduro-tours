@@ -1,32 +1,37 @@
-import Hero from "./sections/Hero";
-import Gallery from "./sections/Gallery";
-import About from "./sections/About";
-import Offers from "./sections/Offers";
-import Contacts from "./sections/Contacts";
-import Navbar from "./components/Navbar";
+import Hero from "./sections//hero/Hero";
+import Gallery from "./sections/gallery/Gallery";
+import About from "./sections/about/About";
+import Contacts from "./sections/contacts/Contacts";
+import Navbar from "./components/navbar/Navbar";
 import { useRef } from "react";
-import Footer from "./sections/Footer";
+import Footer from "./sections/footer/Footer";
 import { utils } from "./utils";
+import Rentals from "./sections/rental/Rental";
+import GuidedTours from "./sections/tours/GuidedTours";
 
 function App() {
   const aboutRef: React.RefObject<HTMLElement | null> = useRef(null);
-  const offersRef: React.RefObject<HTMLElement | null> = useRef(null);
+  const toursRef: React.RefObject<HTMLElement | null> = useRef(null);
   const galleryRef: React.RefObject<HTMLElement | null> = useRef(null);
   const contactsRef: React.RefObject<HTMLElement | null> = useRef(null);
   const heroRef: React.RefObject<HTMLElement | null> = useRef(null);
+  const rentalsRef: React.RefObject<HTMLElement | null> = useRef(null);
 
   return (
     <>
       <Navbar
         onAboutClick={() => utils.scrollSectionIntoView(aboutRef)}
-        onOffersClick={() => utils.scrollSectionIntoView(offersRef)}
+        onToursClick={() => utils.scrollSectionIntoView(toursRef)}
         onGalleryClick={() => utils.scrollSectionIntoView(galleryRef)}
         onContactsClick={() => utils.scrollSectionIntoView(contactsRef)}
         onHomeClick={() => utils.scrollSectionIntoView(heroRef)}
+        onLogoClick={() => utils.scrollSectionIntoView(heroRef)}
+        onRentalsClick={() => utils.scrollSectionIntoView(rentalsRef)}
       />
-      <Hero sectionRef={heroRef} paslaugosRef={offersRef} />
+      <Hero sectionRef={heroRef} paslaugosRef={toursRef} />
       <About sectionRef={aboutRef} />
-      <Offers sectionRef={offersRef} />
+      <GuidedTours sectionRef={toursRef} />
+      <Rentals sectionRef={rentalsRef} />
       <Gallery sectionRef={galleryRef} />
       <Contacts sectionRef={contactsRef} />
       <Footer />

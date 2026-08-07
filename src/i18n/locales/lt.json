@@ -2,9 +2,10 @@
   "nav": {
     "home": "Pradžia",
     "info": "Info",
-    "offers": "Pasiūlymai",
+    "tours": "Turai",
+    "rentals": "Nuoma",
     "gallery": "Galerija",
-    "contacts": "Kontaktai"
+    "contacts": "Susisiekite"
   },
   "hero": {
     "description": "Profesionaliai suplanuoti enduro turai aplink Vilnių – nepamirštama patirtis tiek pradedantiesiems, tiek patyrusiems vairuotojams.",
@@ -24,24 +25,65 @@
       "text": "Turai pritaikyti tiek pradedantiesiems, tiek patyrusiems motociklininkams."
     }
   },
-  "offers": {
-    "sectionHeading": "Pasiūlymai",
+  "guidedTours": {
+    "sectionHeading": "Turai su gidu",
     "mostPopular": "Populiariausias",
-    "tourPrice": "Pasiūlymo kaina",
+    "tourPrice": "Turo kaina",
     "tours": {
       "short": {
-        "title": "2.5val turas",
-        "description": "Į kiekvieną turą įeina naujas Honda CRF300L motociklas, maršruto vedlys ir kruopščiai parinkti maršrutai, leidžiantys mėgautis tikru enduro nuotykiu. Atraskite Vilniaus apylinkes kitaip – ten, kur prasideda tikras nuotykis."
+        "title": "2.5h turas",
+        "intro": "Puikus pasirinkimas pirmą kartą bandantiems enduro motociklą arba norintiems trumpam pabėgti iš miesto.",
+        "features": {
+          "feature1": "~50 km maršrutas aplink Vilnių",
+          "feature2": "Vaizdingi miško keliai ir žvyrkeliai",
+          "feature3": "Lengvos bekelės ruožai",
+          "feature4": "Maršrutas pritaikomas pagal jūsų patirtį"
+        },
+        "closing": "Puiki pažintis su enduro pasauliu – gamta, nuotykiai ir smagus važiavimas viename."
       },
       "medium": {
-        "title": "4val turas",
-        "description": "Į kiekvieną turą įeina naujas Honda CRF300L motociklas, maršruto vedlys ir kruopščiai parinkti maršrutai, leidžiantys mėgautis tikru enduro nuotykiu. Atraskite Vilniaus apylinkes kitaip – ten, kur prasideda tikras nuotykis."
+        "title": "4h turas",
+        "intro": "Ilgesnis maršrutas tiems, kurie nori patirti daugiau įvairios dangos ir tobulinti savo važiavimo įgūdžius.",
+        "features": {
+          "feature1": "~100 km maršrutas aplink Vilnių",
+          "feature2": "Greiti žvyrkeliai ir techniškesni miško takai",
+          "feature3": "Įvairesni bekelės ruožai",
+          "feature4": "Puikus pasirinkimas turintiems šiek tiek patirties"
+        }
       },
       "fullDay": {
         "title": "Visos dienos turas",
-        "description": "Į kiekvieną turą įeina naujas Honda CRF300L motociklas, maršruto vedlys ir kruopščiai parinkti maršrutai, leidžiantys mėgautis tikru enduro nuotykiu. Atraskite Vilniaus apylinkes kitaip – ten, kur prasideda tikras nuotykis."
+        "intro": "Visos dienos nuotykis tiems, kurie nori maksimaliai išnaudoti laiką ant motociklo.",
+        "features": {
+          "feature1": "~300 km maršrutas aplink Vilniaus apylinkes",
+          "feature2": "Įvairiausia danga – nuo žvyrkelių iki bekelės ruožų",
+          "feature3": "Gražiausios regiono vietos ir vaizdingos panoramos",
+          "feature4": "Sustojimai pailsėti ir pasigrožėti vaizdais"
+        }
       }
     }
+  },
+  "rentals": {
+    "sectionHeading": "Nuoma",
+    "rental": {
+      "title": "Motociklų nuoma",
+      "topText": "Norintiems keliauti savarankiškai, siūlome Honda CRF300L motociklų nuomą. Turime 3 motociklus.",
+      "weekdays": "Darbo dienomis – 70 € / diena",
+      "weekends": "Savaitgaliais ir švenčių dienomis – 80 € / diena",
+      "bottomText": "Leiskitės į nuotykius savo tempu ir atraskite gražiausius Vilniaus apylinkių maršrutus."
+    }
+  },
+  "beforeTrip": {
+    "title": "Prieš kelionę",
+    "equipment": {
+      "intro": "Prieš kelionę kiekvienam dalyviui suteikiama visa būtina apsauginė įranga:",
+      "helmet": "Šalmas",
+      "armor": "Motocikliniai šarvai",
+      "gloves": "Pirštinės",
+      "boots": "Apsauginiai batai",
+      "bootsDisclaimer": "Batų dydžiai šiuo metu yra 44–45, todėl, jei avite kitokį dydį, rekomenduojama turėti savo motociklinius batus."
+    },
+    "closingText": "Viskas, ko reikia – gera nuotaika ir noras patirti tikrą enduro nuotykį."
   },
   "gallery": {
     "sectionHeading": "Galerija",

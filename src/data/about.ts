@@ -1,6 +1,7 @@
 import HandshakeIcon from "../assets/icons/HandshakeIcon";
 import MotorcycleIcon from "../assets/icons/MotorcycleIcon";
 import TreeIcon from "../assets/icons/TreeIcon";
+import type { AboutType } from "../types/data";
 
 export const aboutData: AboutType[] = [
   //stores references to i18n text values

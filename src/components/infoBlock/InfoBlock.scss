@@ -1,0 +1,23 @@
+@use "../../assets/styles/variables" as *;
+
+.info-block {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  &--heading {
+    font-family: $bebas-neue-font;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    margin: var(--space-xxs) 0;
+  }
+
+  &--text {
+    font-size: $secondary-font-size;
+    margin: 0;
+  }
+
+  &--vector {
+    color: $primary-color;
+  }
+}

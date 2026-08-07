@@ -1,0 +1,24 @@
+@use "../../../assets/styles/variables" as *;
+
+.before-trip-card {
+  background-color: $lighter-black;
+  font-size: $primary-font-size;
+
+  .protective-gear {
+    &--wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-sm);
+      margin: var(--space-lg) 0;
+    }
+    &--card {
+      display: flex;
+      gap: var(--space-xs);
+      align-items: center;
+    }
+    &--icon {
+      height: var(--icon-lg);
+      color: $primary-color;
+    }
+  }
+}

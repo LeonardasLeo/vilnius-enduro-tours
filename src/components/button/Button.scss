@@ -1,0 +1,18 @@
+@use "../../assets/styles/variables" as *;
+
+.custom-button {
+  background-color: $primary-color;
+  border: none;
+  color: $text-color;
+  padding: var(--space-xs) var(--space-md);
+  border-radius: 3px;
+  font-size: $secondary-font-size;
+  cursor: pointer;
+  transition: ease $transition-duration;
+  width: fit-content;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: darken-color($primary-color);
+  }
+}

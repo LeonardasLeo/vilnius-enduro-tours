@@ -1,0 +1,40 @@
+@use "../../assets/styles/variables" as *;
+@import "yet-another-react-lightbox/plugins/thumbnails.css";
+@import "yet-another-react-lightbox/styles.css";
+@import "yet-another-react-lightbox/plugins/captions.css";
+@import "yet-another-react-lightbox/plugins/counter.css";
+
+.gallery-section {
+  scroll-margin-top: $section-scroll-margin-top;
+  padding-top: $section-padding-top;
+  padding-bottom: var(--space-md);
+  border-bottom: $section-border;
+
+  .gallery-thumbnails {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: var(--space-xs);
+    padding: 0 $section-horizontal-padding;
+
+    .image {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      cursor: pointer;
+      transition: transform ease $transition-duration;
+      object-position: center;
+
+      &:hover {
+        transform: translateY($hover-lift);
+        z-index: 2;
+      }
+    }
+  }
+
+  .gallery-button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-md);
+  }
+}

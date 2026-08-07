@@ -110,3 +110,5 @@ export const photos = [
     descriptionKey: "gallery.photoDescription",
   },
 ];
+
+//possible remove 14, 16, 20, 22

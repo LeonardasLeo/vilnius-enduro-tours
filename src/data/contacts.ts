@@ -1,6 +1,8 @@
 import EmailIcon from "../assets/icons/EmailIcon";
 import PhoneIcon from "../assets/icons/PhoneIcon";
 import PinIcon from "../assets/icons/PinIcon";
+import { BRAND_NAME } from "./siteData";
+import type { ContactType } from "../types/data";
 
 export const contactData: ContactType[] = [
   //text is not translated, because it doesnt change regardless of language
@@ -21,7 +23,7 @@ export const contactData: ContactType[] = [
   {
     id: 3,
     headingKey: "contacts.location.heading",
-    text: "Vilnius Enduro Tours“, Ramybės g. 4, Vilnius",
+    text: `${BRAND_NAME}, Ramybės g. 4, Vilnius`,
     icon: PinIcon,
     link: "https://www.google.com/maps/search/?api=1&query=Ramybės+g.+4,+Vilnius",
   },
