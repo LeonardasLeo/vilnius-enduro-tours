@@ -7,10 +7,22 @@
   background-color: $lighter-black;
 
   .deposit {
+    position: relative;
     margin: auto;
     text-align: center;
-    border: 1px solid $primary-color;
+    border: 1px solid $light-gray;
     padding: var(--space-xs) var(--space-xl);
+    background: $primary-color;
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      inset: 0;
+      transform: translate(-6px, -6px);
+      background: $lighter-black;
+      border: 1px solid $primary-color;
+    }
 
     &-price {
       font-family: $bebas-neue-font;
