@@ -8,7 +8,7 @@ import type { HeroProps } from "../../types/props";
 function Hero({ sectionRef, paslaugosRef }: HeroProps) {
   const { t } = useTranslation();
   return (
-    <section className="hero-section" ref={sectionRef}>
+    <header className="hero-section" ref={sectionRef}>
       <div className="hero-content">
         <h1 className="hero-title">
           {BRAND_NAME_HIGHLIGHT.first}{" "}
@@ -23,7 +23,7 @@ function Hero({ sectionRef, paslaugosRef }: HeroProps) {
           onClick={() => utils.scrollSectionIntoView(paslaugosRef)}
         />
       </div>
-    </section>
+    </header>
   );
 }
 

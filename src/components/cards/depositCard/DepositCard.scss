@@ -1,0 +1,27 @@
+@use "../../../assets/styles/variables" as *;
+
+.deposit-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: $lighter-black;
+
+  .deposit {
+    margin: auto;
+    text-align: center;
+    border: 1px solid $primary-color;
+    padding: var(--space-xs) var(--space-xl);
+
+    &-price {
+      font-family: $bebas-neue-font;
+      font-size: 50px;
+      margin-top: var(--space-xs);
+      margin-bottom: 0;
+    }
+
+    &-message {
+      color: $light-gray;
+      margin-top: 0;
+    }
+  }
+}

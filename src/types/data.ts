@@ -5,13 +5,12 @@ export type GuidedTourType = {
   titleKey: string;
   introKey: string;
   features: string[];
-  closing: string;
   price: number;
   image: string;
   mostPopular: boolean;
 };
 
-export type InfoBlockData = {
+export type FeatureBlockData = {
   headingKey: string;
   textKey?: string;
   text?: string;
@@ -39,9 +38,46 @@ export type ContactType = {
   link: string;
 };
 
-export type AboutType = {
+export type FeatureType = {
   id: number;
   headingKey: string;
   textKey: string;
   icon: IconComponent;
+};
+
+export type RentalType = {
+  id: number;
+  title: string;
+  price: number;
+};
+
+export type HighlightedBrandNameType = {
+  first: string;
+  highlight: string;
+  last: string;
+};
+
+export type TourPricesType = {
+  TWO_HOUR: number;
+  FOUR_HOUR: number;
+  FULL_DAY: number;
+};
+
+export type RentalPricesType = {
+  WEEKDAYS: number;
+  WEEKENDS_AND_HOLIDAYS: number;
+};
+
+export type LinksType = {
+  FACEBOOK: string;
+  INSTAGRAM: string;
+};
+
+export type ContactsDataType = {
+  PHONE_NUMBER: string;
+  EMAIL: string;
+  LOCATION: {
+    ADDRESS: string;
+    MAPS_LINK: string;
+  };
 };

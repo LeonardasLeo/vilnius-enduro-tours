@@ -11,7 +11,7 @@
     "description": "Professionally planned enduro tours around Vilnius — an unforgettable experience for both beginners and experienced riders.",
     "button": "Explore offers"
   },
-  "info": {
+  "features": {
     "motorcycle": {
       "heading": "Modern Honda CRF300L",
       "text": "Ride brand-new Honda CRF300L motorcycles, designed for off-road adventures."
@@ -64,25 +64,31 @@
   },
   "rentals": {
     "sectionHeading": "Rentals",
-    "rental": {
-      "title": "Motorcycle rental",
-      "topText": "For those who prefer to ride independently, we offer Honda CRF300L motorcycle rentals. We currently have three motorcycles available.",
-      "weekdays": "Weekdays – €70 per day",
-      "weekends": "Weekends and holidays – €80 per day",
-      "bottomText": "Create your own adventure and discover the hidden trails and scenic routes surrounding Vilnius."
-    }
+    "topText": "For those who prefer to ride independently, we offer Honda CRF300L motorcycle rentals. We currently have three motorcycles available.",
+    "weekdays": "Weekdays",
+    "weekendsAndHolidays": "Weekends and holidays",
+    "perDay": "/ day",
+    "bottomText": "Create your own adventure and discover the hidden trails and scenic routes surrounding Vilnius."
   },
-  "beforeTrip": {
-    "title": "Before trip",
+  "info": {
+    "sectionHeading": "Info",
+    "description": "Everything you need to know before choosing a tour or renting a motorcycle.",
     "equipment": {
-      "intro": "Before each ride, every participant is provided with all the necessary protective gear:",
+      "title": "Protective Equipment",
+      "intro": "Before the trip, every participant is provided with all the necessary protective equipment:",
       "helmet": "Helmet",
       "armor": "Motorcycle armor",
       "gloves": "Gloves",
-      "boots": "Boots",
-      "bootsDisclaimer": "Protective boots are currently available in EU sizes 44–45. If you require a different size, we recommend bringing your own motorcycle boots."
+      "boots": "Protective boots",
+      "bootsDisclaimer": "Boot sizes are currently 44–45, so if you wear a different size, we recommend bringing your own motorcycle boots.",
+      "closingText": "All you need is a good attitude and a desire to experience a true enduro adventure."
     },
-    "closingText": "All you need is a good attitude and the desire to experience a true enduro adventure."
+    "deposit": {
+      "title": "Deposit",
+      "description": "A refundable deposit is required when booking a tour or renting a motorcycle. It covers potential damage to the motorcycle or equipment during the trip.",
+      "amountLabel": "Refundable deposit",
+      "returnPolicy": "The deposit is fully refunded immediately after the tour or rental, provided that the motorcycle and equipment are returned undamaged."
+    }
   },
   "gallery": {
     "sectionHeading": "Gallery",

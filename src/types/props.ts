@@ -1,5 +1,5 @@
 import type { Dispatch, RefObject, SetStateAction } from "react";
-import type { InfoBlockData, GuidedTourType } from "./data";
+import type { FeatureBlockData, GuidedTourType, RentalType } from "./data";
 
 export type IconProps = {
   className?: string;
@@ -7,13 +7,13 @@ export type IconProps = {
 };
 
 export type NavbarProps = {
-  onAboutClick: () => void;
   onToursClick: () => void;
   onGalleryClick: () => void;
   onContactsClick: () => void;
   onHomeClick: () => void;
   onLogoClick: () => void;
   onRentalsClick: () => void;
+  onInfoClick: () => void;
 };
 
 export type TourCardProps = {
@@ -33,9 +33,8 @@ export type ButtonProps = {
   text: string;
 };
 
-export type InfoBlockProps = {
-  data: InfoBlockData;
-  iconHeight?: number;
+export type FeatureBlockProps = {
+  data: FeatureBlockData;
 };
 
 export interface HeroProps extends SectionProps {
@@ -45,4 +44,9 @@ export interface HeroProps extends SectionProps {
 export type LogoProps = {
   onClick?: () => void;
   className?: string;
+};
+
+export type RentalCardProps = {
+  className: string;
+  rental: RentalType;
 };

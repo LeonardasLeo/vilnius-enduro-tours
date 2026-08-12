@@ -1,14 +1,12 @@
 @use "../../assets/styles/variables" as *;
 
-.info-block {
+.feature-block {
   display: flex;
   align-items: center;
   gap: var(--space-sm);
   &--heading {
     font-family: $bebas-neue-font;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 25px;
+    font-size: $subheading-font-size;
     margin: var(--space-xxs) 0;
   }
 
@@ -19,5 +17,6 @@
 
   &--vector {
     color: $primary-color;
+    height: var(--icon-lg);
   }
 }

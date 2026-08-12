@@ -1,4 +1,6 @@
-export const photos = [
+import type { PhotoType } from "../types/data";
+
+export const photos: PhotoType[] = [
   {
     src: "/images/image00001.jpeg",
     thumbnail: "/thumbnails/image00001.jpeg",

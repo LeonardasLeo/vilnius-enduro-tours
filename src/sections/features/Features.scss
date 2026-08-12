@@ -1,12 +1,12 @@
 @use "../../assets/styles/variables" as *;
 
-.info-section {
+.features-section {
   scroll-margin-top: $section-scroll-margin-top;
   padding-top: $section-padding-top;
   padding-bottom: var(--space-md);
   border-bottom: $section-border;
 
-  .info-content {
+  .features-content {
     display: flex;
     gap: var(--space-md);
     justify-content: space-evenly;

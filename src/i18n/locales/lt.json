@@ -11,7 +11,7 @@
     "description": "Profesionaliai suplanuoti enduro turai aplink Vilnių – nepamirštama patirtis tiek pradedantiesiems, tiek patyrusiems vairuotojams.",
     "button": "ŽIŪRĖTI PASIŪLYMUS"
   },
-  "info": {
+  "features": {
     "motorcycle": {
       "heading": "Modern Honda CRF300L",
       "text": "Važiuokite visiškai naujais Honda CRF300L motociklais, pritaikytais bekelės nuotykiams."
@@ -38,8 +38,7 @@
           "feature2": "Vaizdingi miško keliai ir žvyrkeliai",
           "feature3": "Lengvos bekelės ruožai",
           "feature4": "Maršrutas pritaikomas pagal jūsų patirtį"
-        },
-        "closing": "Puiki pažintis su enduro pasauliu – gamta, nuotykiai ir smagus važiavimas viename."
+        }
       },
       "medium": {
         "title": "4h turas",
@@ -65,25 +64,31 @@
   },
   "rentals": {
     "sectionHeading": "Nuoma",
-    "rental": {
-      "title": "Motociklų nuoma",
-      "topText": "Norintiems keliauti savarankiškai, siūlome Honda CRF300L motociklų nuomą. Turime 3 motociklus.",
-      "weekdays": "Darbo dienomis – 70 € / diena",
-      "weekends": "Savaitgaliais ir švenčių dienomis – 80 € / diena",
-      "bottomText": "Leiskitės į nuotykius savo tempu ir atraskite gražiausius Vilniaus apylinkių maršrutus."
-    }
+    "topText": "Norintiems keliauti savarankiškai, siūlome Honda CRF300L motociklų nuomą. Turime 3 motociklus.",
+    "weekdays": "Darbo dienomis",
+    "weekendsAndHolidays": "Savaitgaliais ir švenčių dienomis",
+    "perDay": "/ diena",
+    "bottomText": "Leiskitės į nuotykius savo tempu ir atraskite gražiausius Vilniaus apylinkių maršrutus."
   },
-  "beforeTrip": {
-    "title": "Prieš kelionę",
+  "info": {
+    "sectionHeading": "Info",
+    "description": "Viskas, ką reikia žinoti prieš renkantis turą ar nuomojantis motociklą.",
     "equipment": {
+      "title": "Apsauginė įranga",
       "intro": "Prieš kelionę kiekvienam dalyviui suteikiama visa būtina apsauginė įranga:",
       "helmet": "Šalmas",
       "armor": "Motocikliniai šarvai",
       "gloves": "Pirštinės",
       "boots": "Apsauginiai batai",
-      "bootsDisclaimer": "Batų dydžiai šiuo metu yra 44–45, todėl, jei avite kitokį dydį, rekomenduojama turėti savo motociklinius batus."
+      "bootsDisclaimer": "Batų dydžiai šiuo metu yra 44–45, todėl, jei avite kitokį dydį, rekomenduojama turėti savo motociklinius batus.",
+      "closingText": "Viskas, ko reikia – gera nuotaika ir noras patirti tikrą enduro nuotykį."
     },
-    "closingText": "Viskas, ko reikia – gera nuotaika ir noras patirti tikrą enduro nuotykį."
+    "deposit": {
+      "title": "Depozitas",
+      "description": "Rezervuojant turą arba nuomojantis motociklą taikomas grąžinamas užstatas. Jis padengia galimą žalą motociklui ar įrangai kelionės metu.",
+      "amountLabel": "Grąžinamas užstatas",
+      "returnPolicy": "Užstatas grąžinamas pilnai iškart po turo ar nuomos pabaigos, jei motociklas ir įranga grąžinami nepažeisti."
+    }
   },
   "gallery": {
     "sectionHeading": "Galerija",
@@ -94,16 +99,13 @@
   "contacts": {
     "sectionHeader": "Susisiekite",
     "phone": {
-      "heading": "Telefonas",
-      "text": "+37068881519"
+      "heading": "Telefonas"
     },
     "email": {
-      "heading": "Paštas",
-      "text": "mototuras@gmail.com"
+      "heading": "Paštas"
     },
     "location": {
-      "heading": "Adresas",
-      "text": "Vilnius Enduro Tours“, Ramybės g. 4, Vilnius"
+      "heading": "Adresas"
     }
   },
   "footer": {

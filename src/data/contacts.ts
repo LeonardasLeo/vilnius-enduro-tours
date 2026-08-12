@@ -1,7 +1,7 @@
 import EmailIcon from "../assets/icons/EmailIcon";
 import PhoneIcon from "../assets/icons/PhoneIcon";
 import PinIcon from "../assets/icons/PinIcon";
-import { BRAND_NAME } from "./siteData";
+import { BRAND_NAME, CONTACTS } from "./siteData";
 import type { ContactType } from "../types/data";
 
 export const contactData: ContactType[] = [
@@ -9,22 +9,22 @@ export const contactData: ContactType[] = [
   {
     id: 1,
     headingKey: "contacts.phone.heading",
-    text: "+37068881519",
+    text: CONTACTS.PHONE_NUMBER,
     icon: PhoneIcon,
-    link: "tel:+37068881519",
+    link: `tel:${CONTACTS.PHONE_NUMBER}`,
   },
   {
     id: 2,
     headingKey: "contacts.email.heading",
-    text: "mototuras@gmail.com",
+    text: CONTACTS.EMAIL,
     icon: EmailIcon,
-    link: "mailto:mototuras@gmail.com",
+    link: `mailto:${CONTACTS.EMAIL}`,
   },
   {
     id: 3,
     headingKey: "contacts.location.heading",
-    text: `${BRAND_NAME}, Ramybės g. 4, Vilnius`,
+    text: `${BRAND_NAME}, ${CONTACTS.LOCATION.ADDRESS}`,
     icon: PinIcon,
-    link: "https://www.google.com/maps/search/?api=1&query=Ramybės+g.+4,+Vilnius",
+    link: CONTACTS.LOCATION.MAPS_LINK,
   },
 ];

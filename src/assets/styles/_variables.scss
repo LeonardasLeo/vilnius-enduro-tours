@@ -17,7 +17,7 @@
 $text-color: #ffffff;
 $primary-color: #ff0000;
 $secondary-color: #0b0b0b;
-$lighter-black: #141414;
+$lighter-black: #0e0e0e;
 $gray-color: #333333;
 $light-gray: #bbbbbb;
 
@@ -25,6 +25,7 @@ $light-gray: #bbbbbb;
 $section-horizontal-padding: px-to-rem(100px);
 $section-padding-top: var(--space-md);
 $section-scroll-margin-top: px-to-rem(50px);
+$hero-top-padding: px-to-rem(200px);
 
 //fonts
 $bebas-neue-font: "Bebas Neue", sans-serif;
@@ -33,9 +34,10 @@ $inter-font: "Inter", sans-serif;
 //font sizes
 $primary-font-size: px-to-rem(14px);
 $secondary-font-size: px-to-rem(12px);
-$heading-font-size: px-to-rem(38px);
+$subheading-font-size: px-to-rem(25px);
+$card-heading-font-size: px-to-rem(30px);
+$heading-font-size: px-to-rem(40px);
 $hero-title-font-size: px-to-rem(80px);
-$hero-top-padding: px-to-rem(200px);
 
 //other
 $hover-lift: -4px;

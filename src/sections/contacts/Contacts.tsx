@@ -3,7 +3,7 @@ import { contactData } from "../../data/contacts";
 import { useTranslation } from "react-i18next";
 import type { ContactType } from "../../types/data";
 import type { SectionProps } from "../../types/props";
-import InfoBlock from "../../components/infoBlock/InfoBlock";
+import FeatureBlock from "../../components/featureBlock/FeatureBlock";
 
 function Contacts({ sectionRef }: SectionProps) {
   const { t } = useTranslation();
@@ -18,7 +18,7 @@ function Contacts({ sectionRef }: SectionProps) {
             target="_blank"
             rel="noopener noreferrer"
             key={contact.id}>
-            <InfoBlock data={contact} iconHeight={40} />
+            <FeatureBlock data={contact} />
           </a>
         ))}
       </div>

@@ -17,11 +17,13 @@ function TourCard({ tour, activeCardNumber, index, setActiveCard }: TourCardProp
       <div className="card-content tour-card--content">
         <h2 className="card-title">{t(tour.titleKey)}</h2>
 
-        <p className="tour-card--intro">{t(tour.introKey)}</p>
+        <p>{t(tour.introKey)}</p>
 
         <ul className="tour-card--features">
           {tour.features.map((feature) => (
-            <li className="feature">{t(feature)}</li>
+            <li className="feature" key={feature}>
+              {t(feature)}
+            </li>
           ))}
         </ul>
 

@@ -9,8 +9,8 @@
   --space-sm: #{px-to-rem(20px)};
   --space-md: #{px-to-rem(30px)};
   --space-lg: #{px-to-rem(40px)};
+  --space-xl: #{px-to-rem(50px)};
 
-  --icon-sm: #{px-to-rem(10px)};
   --icon-md: #{px-to-rem(25px)};
   --icon-lg: #{px-to-rem(50px)};
   background-color: $secondary-color;
@@ -22,4 +22,5 @@
 
 body {
   margin: 0;
+  font-size: $primary-font-size;
 }

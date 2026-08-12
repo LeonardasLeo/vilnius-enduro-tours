@@ -5,11 +5,12 @@
   border-bottom: $section-border;
   scroll-margin-top: $section-scroll-margin-top;
 
-  .rental-card--custom {
-    flex: 2;
+  .rental-description,
+  .rental-closing {
+    text-align: center;
   }
 
-  .before-trip-card--custom {
+  .rental-card--custom {
     flex: 1;
   }
 }
@@ -17,5 +18,5 @@
 .rentals-content {
   display: flex;
   gap: var(--space-xs);
-  font-size: $primary-font-size;
+  padding: var(--space-md) 0;
 }

@@ -1,26 +1,26 @@
 import HandshakeIcon from "../assets/icons/HandshakeIcon";
 import MotorcycleIcon from "../assets/icons/MotorcycleIcon";
 import TreeIcon from "../assets/icons/TreeIcon";
-import type { AboutType } from "../types/data";
+import type { FeatureType } from "../types/data";
 
-export const aboutData: AboutType[] = [
+export const featuresData: FeatureType[] = [
   //stores references to i18n text values
   {
     id: 1,
-    headingKey: "info.motorcycle.heading",
-    textKey: "info.motorcycle.text",
+    headingKey: "features.motorcycle.heading",
+    textKey: "features.motorcycle.text",
     icon: MotorcycleIcon,
   },
   {
     id: 2,
-    headingKey: "info.route.heading",
-    textKey: "info.route.text",
+    headingKey: "features.route.heading",
+    textKey: "features.route.text",
     icon: TreeIcon,
   },
   {
     id: 3,
-    headingKey: "info.everyone.heading",
-    textKey: "info.everyone.text",
+    headingKey: "features.everyone.heading",
+    textKey: "features.everyone.text",
     icon: HandshakeIcon,
   },
 ];

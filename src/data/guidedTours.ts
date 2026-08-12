@@ -1,4 +1,5 @@
 import type { GuidedTourType } from "../types/data";
+import { TOUR_PRICES } from "./siteData";
 
 export const guidedTours: GuidedTourType[] = [
   {
@@ -11,8 +12,7 @@ export const guidedTours: GuidedTourType[] = [
       "guidedTours.tours.short.features.feature3",
       "guidedTours.tours.short.features.feature4",
     ],
-    closing: "guidedTours.tours.short.closing",
-    price: 129,
+    price: TOUR_PRICES.TWO_HOUR,
     image: "/images/image00010.jpeg",
     mostPopular: false,
   },
@@ -26,8 +26,7 @@ export const guidedTours: GuidedTourType[] = [
       "guidedTours.tours.medium.features.feature3",
       "guidedTours.tours.medium.features.feature4",
     ],
-    closing: "guidedTours.tours.medium.closing",
-    price: 169,
+    price: TOUR_PRICES.FOUR_HOUR,
     image: "/images/image00011.jpeg",
     mostPopular: true,
   },
@@ -41,8 +40,7 @@ export const guidedTours: GuidedTourType[] = [
       "guidedTours.tours.fullDay.features.feature3",
       "guidedTours.tours.fullDay.features.feature4",
     ],
-    closing: "guidedTours.tours.fullDay.closing",
-    price: 259,
+    price: TOUR_PRICES.FULL_DAY,
     image: "/images/image00019.jpeg",
     mostPopular: false,
   },

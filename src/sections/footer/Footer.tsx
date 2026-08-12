@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "./Footer.scss";
-import { BRAND_NAME, CURRENT_YEAR } from "../../data/siteData";
+import { BRAND_NAME, CURRENT_YEAR, LINKS } from "../../data/siteData";
 import FacebookIcon from "../../assets/icons/FacebookIcon";
 import InstagramIcon from "../../assets/icons/InstagramIcon";
 import Logo from "../../components/logo/Logo";
@@ -8,7 +8,7 @@ import Logo from "../../components/logo/Logo";
 function Footer() {
   const { t } = useTranslation();
   return (
-    <footer className="footer">
+    <footer className="footer-section">
       <div>
         <Logo />
       </div>
@@ -19,14 +19,14 @@ function Footer() {
         <div className="footer-socials">
           <a
             className="footer-link"
-            href="https://www.facebook.com/profile.php?id=61572361613243"
+            href={LINKS.FACEBOOK}
             target="_blank"
             rel="noopener noreferrer">
             <FacebookIcon />
           </a>
           <a
             className="footer-link"
-            href="https://www.instagram.com/vilnius_enduro_tours/"
+            href={LINKS.INSTAGRAM}
             target="_blank"
             rel="noopener noreferrer">
             <InstagramIcon />

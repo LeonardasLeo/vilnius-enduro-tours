@@ -5,11 +5,7 @@
   background-size: cover;
   background-position: center;
   cursor: pointer;
-  font-size: $primary-font-size;
-  &:hover {
-    border: 1px solid $light-gray;
-    transform: translateY($hover-lift);
-  }
+  border-radius: 10px;
 
   &--content {
     height: 100%;
@@ -37,8 +33,19 @@
     }
   }
 
-  &--intro {
-    font-size: $primary-font-size;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 8px;
+
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.75) 40%,
+      rgba(0, 0, 0, 0.55) 75%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
   }
 
   &--price {
@@ -73,7 +80,13 @@
 
 .card.inactive-card {
   opacity: 50%;
+  
   &::before {
     background: rgba(0, 0, 0, 0.7);
+  }
+
+  &:hover {
+    border: 1px solid $light-gray;
+    transform: translateY($hover-lift);
   }
 }

@@ -12,8 +12,6 @@
     margin: 0;
     color: $text-color;
     font-family: $bebas-neue-font;
-    font-weight: 400;
-    font-style: normal;
     font-size: $hero-title-font-size;
     text-transform: capitalize;
 
@@ -25,7 +23,6 @@
   .hero-description {
     margin-top: var(--space-lg);
     color: $text-color;
-    font-size: $primary-font-size;
     width: 40%;
   }
 

@@ -1,26 +1,17 @@
 import { useTranslation } from "react-i18next";
 import "./RentalCard.scss";
 import "../../../assets/styles/Card.scss";
+import type { RentalCardProps } from "../../../types/props";
 
-function RentalCard({ className }: { className: string }) {
+function RentalCard({ className, rental }: RentalCardProps) {
   const { t } = useTranslation();
   return (
-    <div
-      className={`card rental-card ${className}`}
-      style={{ backgroundImage: `url(/images/image00014.jpeg)` }}>
-      <div className="card-content">
-        <h2 className="card-title">{t("rentals.rental.title")}</h2>
-        <p>
-          {t("rentals.rental.topText")}
-        </p>
-        <ul className="rental-card--list">
-          <li>{t("rentals.rental.weekdays")}</li>
-          <li>{t("rentals.rental.weekends")}</li>
-        </ul>
-        <p>
-          {t("rentals.rental.bottomText")}
-        </p>
-      </div>
+    <div className={`card rental-card ${className}`}>
+      <h3 className="rental-card--title">{t(rental.title)}</h3>
+      <p>
+        <span className="rental-card--price">€{rental.price}</span>{" "}
+        <span className="per-day">{t("rentals.perDay")}</span>
+      </p>
     </div>
   );
 }

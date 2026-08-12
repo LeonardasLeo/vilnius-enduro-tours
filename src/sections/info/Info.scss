@@ -1,0 +1,25 @@
+@use "../../assets/styles/variables" as *;
+
+.info-section {
+  padding: $section-padding-top $section-horizontal-padding;
+  scroll-margin-top: $section-scroll-margin-top;
+  border-bottom: $section-border;
+
+  .info-intro {
+    text-align: center;
+  }
+
+  .info-content {
+    display: flex;
+    gap: var(--space-xs);
+    align-items: stretch;
+    padding-top: var(--space-md);
+
+    .before-trip-card--custom,
+    .deposit-card {
+      flex: 1;
+    }
+
+    
+  }
+}

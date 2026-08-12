@@ -1,10 +1,21 @@
 @use "../../../assets/styles/variables" as *;
 
 .rental-card {
-  background-position: left;
-  background-size: 190%;
-  .card-content {
-    width: 70%;
+  background-color: $lighter-black;
+
+
+  &--title {
+    font-size: $primary-font-size;
+    color: $light-gray;
+  }
+
+  &--price {
+    font-size: 50px;
+    font-family: $bebas-neue-font;
+  }
+  
+  .per-day {
+    color: $light-gray;
   }
 
   &--list {

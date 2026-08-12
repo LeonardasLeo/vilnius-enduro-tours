@@ -1,10 +1,9 @@
 @use "../../assets/styles/variables" as *;
 
-.footer {
+.footer-section {
   display: flex;
   justify-content: space-between;
   padding: var(--space-sm) $section-horizontal-padding;
-  font-size: $primary-font-size;
 
   .logo-wrapper {
     flex: 1;

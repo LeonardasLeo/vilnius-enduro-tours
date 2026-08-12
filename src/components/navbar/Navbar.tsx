@@ -6,18 +6,18 @@ import type { NavbarProps } from "../../types/props";
 import Logo from "../logo/Logo";
 
 function Navbar({
-  onAboutClick,
   onToursClick,
   onGalleryClick,
   onContactsClick,
   onHomeClick,
   onLogoClick,
   onRentalsClick,
+  onInfoClick,
 }: NavbarProps) {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="background"></div>
       <div className="logo-wrapper">
         <Logo onClick={onLogoClick} className="logo-navbar" />
@@ -27,14 +27,14 @@ function Navbar({
         <p className="nav-link" onClick={onHomeClick}>
           {t("nav.home")}
         </p>
-        <p className="nav-link" onClick={onAboutClick}>
-          {t("nav.info")}
-        </p>
         <p className="nav-link" onClick={onToursClick}>
           {t("nav.tours")}
         </p>
         <p className="nav-link" onClick={onRentalsClick}>
           {t("nav.rentals")}
+        </p>
+        <p className="nav-link" onClick={onInfoClick}>
+          {t("nav.info")}
         </p>
         <p className="nav-link" onClick={onGalleryClick}>
           {t("nav.gallery")}
@@ -59,7 +59,7 @@ function Navbar({
           <UKIcon />
         </p>
       </div>
-    </div>
+    </nav>
   );
 }
 
