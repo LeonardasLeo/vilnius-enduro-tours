@@ -73,22 +73,18 @@
       flex-direction: column;
       height: 100%;
       justify-content: space-evenly;
-      // position: absolute;
-      // inset: 0;
-      // width: 100%;
-      // height: calc(100dvh - 100%);
-      // background-color: $secondary-color;
-      // align-items: flex-start;
-
       background-color: $secondary-color;
 
       .navigation {
         display: flex;
         flex-direction: column;
-        padding: var(--space-lg) 0;
         align-items: flex-start;
         font-family: $bebas-neue-font;
         font-size: var(--font-size-subheading);
+
+        .nav-link{
+          margin: 0;
+        }
       }
 
       .languages {
