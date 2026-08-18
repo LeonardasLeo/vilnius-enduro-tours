@@ -49,13 +49,13 @@
   }
 
   &--price {
-    font-size: $secondary-font-size;
+    font-size: var(--font-size-small);
     display: flex;
     align-items: center;
     gap: var(--space-xxs);
     margin-top: var(--space-md);
     span {
-      font-size: $primary-font-size;
+      font-size: var(--font-size-body);
     }
   }
 
@@ -65,7 +65,7 @@
     left: 0;
     top: 0;
     padding: var(--space-xs) var(--space-md);
-    font-size: $secondary-font-size;
+    font-size: var(--font-size-small);
     border-bottom-right-radius: 6px;
     border-top-left-radius: 7px;
     text-transform: uppercase;
@@ -80,7 +80,7 @@
 
 .card.inactive-card {
   opacity: 50%;
-  
+
   &::before {
     background: rgba(0, 0, 0, 0.7);
   }

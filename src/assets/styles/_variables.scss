@@ -22,7 +22,6 @@ $gray-color: #333333;
 $light-gray: #bbbbbb;
 
 //spacing
-$section-horizontal-padding: px-to-rem(100px);
 $section-padding-top: var(--space-md);
 $section-scroll-margin-top: px-to-rem(50px);
 $hero-top-padding: px-to-rem(200px);
@@ -31,15 +30,7 @@ $hero-top-padding: px-to-rem(200px);
 $bebas-neue-font: "Bebas Neue", sans-serif;
 $inter-font: "Inter", sans-serif;
 
-//font sizes
-$primary-font-size: px-to-rem(14px);
-$secondary-font-size: px-to-rem(12px);
-$subheading-font-size: px-to-rem(25px);
-$card-heading-font-size: px-to-rem(30px);
-$heading-font-size: px-to-rem(40px);
-$hero-title-font-size: px-to-rem(80px);
-
 //other
 $hover-lift: -4px;
-$section-border: 1px solid $gray-color;
+$gray-border: 1px solid $gray-color;
 $transition-duration: 0.3s;

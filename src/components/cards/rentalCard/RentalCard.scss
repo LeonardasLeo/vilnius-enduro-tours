@@ -3,17 +3,16 @@
 .rental-card {
   background-color: $lighter-black;
 
-
   &--title {
-    font-size: $primary-font-size;
+    font-size: var(--font-size-body);
     color: $light-gray;
   }
 
   &--price {
-    font-size: 50px;
+    font-size: var(--font-size-price);
     font-family: $bebas-neue-font;
   }
-  
+
   .per-day {
     color: $light-gray;
   }

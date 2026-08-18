@@ -6,7 +6,7 @@
   color: $text-color;
   padding: var(--space-xs) var(--space-md);
   border-radius: 3px;
-  font-size: $secondary-font-size;
+  font-size: var(--font-size-small);
   cursor: pointer;
   transition: ease $transition-duration;
   width: fit-content;

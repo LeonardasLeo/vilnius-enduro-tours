@@ -4,6 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
+  --font-size-body: 14px;
+
   --space-xxs: #{px-to-rem(5px)};
   --space-xs: #{px-to-rem(10px)};
   --space-sm: #{px-to-rem(20px)};
@@ -11,8 +13,18 @@
   --space-lg: #{px-to-rem(40px)};
   --space-xl: #{px-to-rem(50px)};
 
+  --section-horizontal-padding: #{px-to-rem(100px)};
+
   --icon-md: #{px-to-rem(25px)};
   --icon-lg: #{px-to-rem(50px)};
+
+  --font-size-small: #{px-to-rem(12px)};
+  --font-size-subheading: #{px-to-rem(25px)};
+  --font-size-card-heading: #{px-to-rem(30px)};
+  --font-size-heading: #{px-to-rem(40px)};
+  --font-size-price: #{px-to-rem(50px)};
+  --font-size-hero: #{px-to-rem(80px)};
+
   background-color: $secondary-color;
   font-family: $inter-font;
   font-optical-sizing: auto;
@@ -22,5 +34,22 @@
 
 body {
   margin: 0;
-  font-size: $primary-font-size;
+}
+
+html {
+  font-size: var(--font-size-body);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --font-size-body: 8px;
+    --section-horizontal-padding: #{px-to-rem(50px)};
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --font-size-body: 10px;
+    --section-horizontal-padding: #{px-to-rem(50px)};
+  }
 }

@@ -6,8 +6,8 @@
 
 .gallery-section {
   scroll-margin-top: $section-scroll-margin-top;
-  padding: $section-padding-top $section-horizontal-padding;
-  border-bottom: $section-border;
+  padding: $section-padding-top var(--section-horizontal-padding);
+  border-bottom: $gray-border;
 
   .gallery-thumbnails {
     display: grid;

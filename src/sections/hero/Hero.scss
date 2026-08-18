@@ -2,17 +2,19 @@
 
 .hero-section {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/image00013.jpeg");
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/image00013.jpeg");
   background-size: 130%;
   background-position: 0% 35%;
   display: flex;
-  padding: $hero-top-padding $section-horizontal-padding calc($hero-top-padding/2);
+  padding: $hero-top-padding var(--section-horizontal-padding)
+    calc($hero-top-padding/2);
 
   .hero-title {
     margin: 0;
     color: $text-color;
     font-family: $bebas-neue-font;
-    font-size: $hero-title-font-size;
+    font-size: var(--font-size-hero);
     text-transform: capitalize;
 
     &--highlight {
@@ -28,5 +30,12 @@
 
   .hero-button {
     margin-top: var(--space-lg);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    background-size: 300%;
+    background-position: 30% 35%;
   }
 }

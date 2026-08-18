@@ -1,13 +1,14 @@
 @use "../../assets/styles/variables" as *;
 
 .kontaktai-section {
-  padding: $section-padding-top $section-horizontal-padding 0;
+  padding: $section-padding-top var(--section-horizontal-padding) 0;
   padding-bottom: var(--space-lg);
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/images/image00006.jpeg");
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/images/image00006.jpeg");
   background-size: cover;
   background-position: 0 40%;
-  border-bottom: $section-border;
+  border-bottom: $gray-border;
 
   .kontaktai-content {
     display: flex;
@@ -22,6 +23,14 @@
       &:hover {
         color: darken-color($text-color);
       }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .kontaktai-section {
+    .kontaktai-content {
+      flex-direction: column;
     }
   }
 }

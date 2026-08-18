@@ -26,7 +26,7 @@
 
     &-price {
       font-family: $bebas-neue-font;
-      font-size: 50px;
+      font-size: var(--font-size-price);
       margin-top: var(--space-xs);
       margin-bottom: 0;
     }
@@ -34,6 +34,14 @@
     &-message {
       color: $light-gray;
       margin-top: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .deposit-card {
+    .deposit {
+      margin: var(--space-md) auto;
     }
   }
 }

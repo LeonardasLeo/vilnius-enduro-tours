@@ -1,8 +1,8 @@
 @use "../../assets/styles/variables" as *;
 
 .rentals-section {
-  padding: $section-padding-top $section-horizontal-padding;
-  border-bottom: $section-border;
+  padding: $section-padding-top var(--section-horizontal-padding);
+  border-bottom: $gray-border;
   scroll-margin-top: $section-scroll-margin-top;
 
   .rental-description,
@@ -13,10 +13,18 @@
   .rental-card--custom {
     flex: 1;
   }
+
+  .rentals-content {
+    display: flex;
+    gap: var(--space-xs);
+    padding: var(--space-md) 0;
+  }
 }
 
-.rentals-content {
-  display: flex;
-  gap: var(--space-xs);
-  padding: var(--space-md) 0;
+@media (max-width: 768px) {
+  .rentals-section {
+    .rentals-content {
+      flex-direction: column;
+    }
+  }
 }

@@ -4,12 +4,20 @@
   scroll-margin-top: $section-scroll-margin-top;
   padding-top: $section-padding-top;
   padding-bottom: var(--space-md);
-  border-bottom: $section-border;
+  border-bottom: $gray-border;
 
   .features-content {
     display: flex;
     gap: var(--space-md);
     justify-content: space-evenly;
-    padding: 0 $section-horizontal-padding;
+    padding: 0 var(--section-horizontal-padding);
+  }
+}
+
+@media (max-width: 768px) {
+  .features-section {
+    .features-content {
+      flex-direction: column;
+    }
   }
 }

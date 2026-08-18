@@ -2,12 +2,20 @@
 
 .tours-section {
   scroll-margin-top: $section-scroll-margin-top;
-  padding: $section-padding-top $section-horizontal-padding;
-  border-bottom: $section-border;
+  padding: $section-padding-top var(--section-horizontal-padding);
+  border-bottom: $gray-border;
+
+  .plan-wrapper {
+    display: flex;
+    align-items: stretch;
+    gap: var(--space-sm);
+  }
 }
 
-.plan-wrapper {
-  display: flex;
-  align-items: stretch;
-  gap: var(--space-sm);
+@media (max-width: 768px) {
+  .tours-section {
+    .plan-wrapper {
+      flex-direction: column;
+    }
+  }
 }

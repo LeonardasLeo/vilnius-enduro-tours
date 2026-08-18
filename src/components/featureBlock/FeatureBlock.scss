@@ -6,12 +6,12 @@
   gap: var(--space-sm);
   &--heading {
     font-family: $bebas-neue-font;
-    font-size: $subheading-font-size;
+    font-size: var(--font-size-subheading);
     margin: var(--space-xxs) 0;
   }
 
   &--text {
-    font-size: $secondary-font-size;
+    font-size: var(--font-size-small);
     margin: 0;
   }
 

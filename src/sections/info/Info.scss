@@ -1,9 +1,9 @@
 @use "../../assets/styles/variables" as *;
 
 .info-section {
-  padding: $section-padding-top $section-horizontal-padding;
+  padding: $section-padding-top var(--section-horizontal-padding);
   scroll-margin-top: $section-scroll-margin-top;
-  border-bottom: $section-border;
+  border-bottom: $gray-border;
 
   .info-intro {
     text-align: center;
@@ -19,7 +19,13 @@
     .deposit-card {
       flex: 1;
     }
+  }
+}
 
-    
+@media (max-width: 768px) {
+  .info-section {
+    .info-content {
+      flex-direction: column;
+    }
   }
 }
